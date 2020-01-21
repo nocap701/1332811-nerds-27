@@ -1,7 +1,11 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Артём](https://up.htmlacademy.ru/htmlcss/27/user/1332811).
+<<<<<<< HEAD
 * Наставник: [Владислав Завадский] (https://github.com/zavvla).
+=======
+* Наставник: `Неизвестно`.
+>>>>>>> parent of 725989a... Update Readme.md
 
 ---
 
