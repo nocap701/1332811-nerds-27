@@ -21,9 +21,12 @@
         <h1>Магазин готовых шаблонов</h1>
     </header>
     <main>
-        <form action="#" method="post">
+        <form action="https://echo.htmlacademy.ru/" method="post">
             <div>
                 <h2>Стоимость:</h2>
+                <label>
+                    <input type="range">
+                </label>
                 <label>От
                     <input type="text" name="min-price" value="0">
                 </label>
@@ -33,40 +36,53 @@
             </div>
             <div>
                 <h2>Сетка:</h2>
-                <label>
-                    <input type="radio" name="name-1"> Адаптивная
-                </label>
-
-                <label>
-                    <input type="radio" name="name-1"> Фиксированная
-                </label>
-
-                <label>
-                    <input type="radio" name="name-1"> Резиновая
-                </label>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="radio" name="name-1"> Адаптивная
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="name-1"> Фиксированная
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="radio" name="name-1"> Резиновая
+                        </label>
+                    </li>
+                </ul>
             </div>
             <div>
                 <h2>Особенности:</h2>
-
-                <label>
-                    <input type="checkbox" checked> Слайдер
-                </label>
-
-                <label>
-                    <input type="checkbox" checked> Блок преимуществ
-                </label>
-
-                <label>
-                    <input type="checkbox" checked> Новости
-                </label>
-
-                <label>
-                    <input type="checkbox" checked> Галерея
-                </label>
-
-                <label>
-                    <input type="checkbox" checked> Корзина
-                </label>
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" checked> Слайдер
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" checked> Блок преимуществ
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" checked> Новости
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" checked> Галерея
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" checked> Корзина
+                        </label>
+                    </li>
+                </ul>
             </div>
             <button type="submit">Показать</button>
             <div>
@@ -146,18 +162,18 @@
     </footer>
     <div>
         <button type="button">Закрыть</button>
-        <span>Напишите нам!</span>
-        <form action="#" method="post">
+        <h2>Напишите нам!</h2>
+        <form action="https://echo.htmlacademy.ru/" method="post">
             <label for="login">Ваше имя
-                <input type="text" name="login" placeholder="Представьтесь, пожалуйста">
+                <input id="login " type=" text " name="login " placeholder="Представьтесь, пожалуйста">
             </label>
-            <label for="email">Ваш e-mail
-                <input type="email" name="email" placeholder="Для отправки ответа">
+            <label for="email ">Ваш e-mail
+                <input id="email " type="email " name="email " placeholder="Для отправки ответа">
             </label>
-            <label type="comment">Текст письма
-                <input type="text" name="comment" placeholder="В свободной форме">
+            <label for="message-field ">Текст письма
+      <textarea name="message " id="message-field " rows="5 " placeholder="В свободной форме"></textarea>
             </label>
-            <button type="submit">Отправить</button>
+            <button type="submit ">Отправить</button>
         </form>
     </div>
 </body>
