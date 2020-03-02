@@ -1,0 +1,32 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+  font-weight: normal;
+  min-width: 1200px;
+}
+.main-header {
+  background-color: #eeeeee;
+  color: #000000;
+  padding-top: 50px;
+}
+.header-navigation {
+  min-width: 440px;
+  margin-left: 200px;
+  min-width: 490px;
+}
+.header-navigation li {
+  margin-right: 45px;
+}
+.header-navigation ul {
+  padding-left: 0;
+  margin-top: 26px;
+}
+.header-navigation a {
+  font-weight: 500;
+  line-height: 30px;
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
